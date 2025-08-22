@@ -1,0 +1,37 @@
+# CODEOWNERS file for workflow-connector-674
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-product @Armor-test/dept-reporting @Armor-test/squad-ml
+
+# Directory ownership
+/third_party/ @Armor-test/squad-product @Armor-test/team-core @Armor-test/dept-ui
+/modules/ @Armor-test/dept-automation @Armor-test/unit-cloud @Armor-test/grp-storage
+/dist/ @Armor-test/squad-qa @Armor-test/squad-cloud @Armor-test/unit-design
+/build/ @Armor-test/team-research @Armor-test/team-core
+/internal/ @Armor-test/dept-test @Armor-test/squad-cloud @Armor-test/grp-api
+/assets/ @Armor-test/dept-release @Armor-test/dept-billing @Armor-test/team-core
+/examples/ @Armor-test/squad-research @Armor-test/squad-apps
+/app/ @Armor-test/unit-cloud @Armor-test/grp-api
+/web/ @Armor-test/unit-devops @Armor-test/squad-frontend @Armor-test/squad-apps
+/data/ @Armor-test/grp-reporting @Armor-test/grp-ui
+/tools/ @Armor-test/grp-reporting @Armor-test/grp-api @Armor-test/team-security
+/utils/ @Armor-test/squad-reporting @Armor-test/squad-database
+
+# File type ownership
+*.js @Armor-test/squad-product @Armor-test/team-core
+*.yaml @Armor-test/squad-cloud @Armor-test/dept-automation
+*.cs @Armor-test/squad-search @Armor-test/grp-ui
+*.toml @Armor-test/squad-product @Armor-test/dept-api
+*.html @Armor-test/squad-qa @Armor-test/team-governance
+*.xml @Armor-test/dept-identity @Armor-test/grp-reporting @Armor-test/unit-cloud
+*.yml @Armor-test/grp-reporting @Armor-test/team-notifications @Armor-test/team-logging
+*.gradle @Armor-test/squad-research @Armor-test/squad-tooling
+*.tsx @Armor-test/team-reporting @Armor-test/dept-reporting
+*.go @Armor-test/squad-search @Armor-test/unit-design
+*.rb @Armor-test/grp-api @Armor-test/unit-test
+*.rs @Armor-test/team-logging @Armor-test/team-core
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
